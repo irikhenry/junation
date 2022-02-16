@@ -1,0 +1,76 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+	padding: 0;
+    border: 0;
+}
+
+body{
+    background: linear-gradient(114.54deg, #009933 2.64%, #006600 29.36%, #003300 98.44%, #013501 98.58%);
+}
+
+
+.train_container {
+  height: auto;
+}
+
+svg {
+  height: auto;
+	width: 100vw;
+}
+
+@keyframes trainAnimation {
+    0% {
+      transform: translate(2041px, calc(-1 * 2041px * 0.57735026919));
+    }
+  
+    35% {
+      transform: translate(0);
+    }
+  
+    65% {
+      transform: translate(0);
+    }
+  
+    100% {
+      transform: translate(-2500px, calc(2500px * 0.57735026919));
+    }
+  }
+  
+  #train_one {
+    animation: trainAnimation 15s ease-in-out infinite alternate-reverse;
+    animation-fill-mode: forwards;
+    transform: translate(2500px, calc(-1 * 2500px * 0.57735026919));
+  }
+
+  #train_two {
+    animation: trainAnimation 16s 3s ease-in-out infinite;
+    animation-fill-mode: forwards;
+    transform: translate(-2500px, calc(2500px * 0.57735026919));
+  }
+  
+  #cargo_train_one {
+    animation: trainAnimation 16s 3s ease-in-out infinite;
+    animation-fill-mode: forwards;
+    transform: translate(-2500px, calc(2500px * 0.57735026919));
+  }
+  
+  #cargo_train_three {
+    animation: trainAnimation 20s ease-in-out infinite;
+    animation-fill-mode: forwards;
+    transform: translate(2500px, calc(-1 * 2500px * 0.57735026919));
+  }
+
+
+  
