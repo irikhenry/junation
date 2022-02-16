@@ -22,13 +22,14 @@ body{
     background-size: auto;
 }
 
+
 .train_container {
   height: auto;
 }
 
 svg {
   height: 100vh;
-	width: auto;
+	width: 100vw;
 }
 
 @keyframes trainAnimation {
