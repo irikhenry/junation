@@ -18,6 +18,8 @@ time, mark, audio, video {
 
 body{
     background: linear-gradient(114.54deg, #009933 2.64%, #006600 29.36%, #003300 98.44%, #013501 98.58%);
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 
 
@@ -26,7 +28,7 @@ body{
 }
 
 svg {
-  height: auto;
+  height: 100vh;
 	width: 100vw;
 }
 
